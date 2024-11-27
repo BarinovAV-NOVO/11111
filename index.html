@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузовой двор - СТО для грузовых автомобилей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2b2b2b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('truck-hero.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .hero button {
+            background-color: #ff9800;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #e67e00;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .service {
+            flex: 1;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+        }
+        .service img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .service h3 {
+            margin-top: 15px;
+        }
+        footer {
+            background-color: #2b2b2b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Грузовой двор логотип" style="height: 300px;">
+    <h1>Грузовой двор</h1>
+    <p>Надёжное СТО для грузовых автомобилей</p>
+</header>
+
+<nav>
+    <a href="#services">Услуги</a>
+    <a href="#about">О нас</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="hero">
+    <h1>Добро пожаловать в Грузовой двор</h1>
+    <p>Мы предлагаем полный спектр услуг для вашего грузового автомобиля</p>
+    <button>Узнать больше</button>
+</div>
+
+<section id="services" class="section">
+    <h2>Наши услуги</h2>
+    <div class="services">
+        <div class="service">
+            <img src="repair.jpg" alt="Ремонт грузовиков">
+            <h3>Ремонт грузовиков</h3>
+            <p>Капитальный и текущий ремонт всех марок грузовых автомобилей.</p>
+        </div>
+        <div class="service">
+            <img src="diagnostics.jpg" alt="Диагностика">
+            <h3>Диагностика</h3>
+            <p>Современное оборудование для точной диагностики всех систем.</p>
+        </div>
+        <div class="service">
+            <img src="maintenance.jpg" alt="Техническое обслуживание">
+            <h3>Техническое обслуживание</h3>
+            <p>Регулярное ТО для предотвращения поломок и увеличения срока службы.</p>
+        </div>
+        <div class="service">
+            <img src="tires.jpg" alt="Замена шин">
+            <h3>Замена и балансировка шин</h3>
+            <p>Продажа, замена и балансировка шин для грузовиков.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>О нас</h2>
+    <p>СТО "Грузовой двор" специализируется на обслуживании грузовых автомобилей всех марок. Мы предоставляем полный спектр услуг, чтобы ваш транспорт всегда был в исправном состоянии.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Контакты</h2>
+    <p>📍 Адрес: Новороссийск, Россия</p>
+    <p>📞 Телефон: +7 (800) 555-35-35</p>
+    <p>✉ Email: contact@gruzovoidvor.ru</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Грузовой двор. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
